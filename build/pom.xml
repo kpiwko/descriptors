@@ -16,7 +16,7 @@
   <!-- Artifact Configuration -->
   <groupId>org.jboss.shrinkwrap.descriptors</groupId>
   <artifactId>shrinkwrap-descriptors-build</artifactId>
-  <version>1.0.0-alpha-1-SNAPSHOT</version>
+  <version>1.0.0-rhdc</version>
   <name>ShrinkWrap Descriptors Build</name>
   <description>ShrinkWrap Descriptors Build Configuration</description>
   <packaging>pom</packaging>
@@ -27,6 +27,9 @@
     <!-- Versioning -->
     <version.junit_junit>4.8.1</version.junit_junit>
     <version.org.jboss.spec>1.0.0.Beta7</version.org.jboss.spec>
+
+    <jboss.releases.repo.url>file:///tmp/rdhc-repository</jboss.releases.repo.url>
+    <jboss.snapshots.repo.url>file:///tmp/rdhc-repository</jboss.snapshots.repo.url>
 
   </properties>
 

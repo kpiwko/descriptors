@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss.shrinkwrap.descriptors</groupId>
     <artifactId>shrinkwrap-descriptors-build</artifactId>
-    <version>1.0.0-alpha-1-SNAPSHOT</version>
+    <version>1.0.0-rhdc</version>
     <relativePath>../build/pom.xml</relativePath>
   </parent>
 
@@ -33,5 +33,10 @@
     </dependency>
 
   </dependencies>
+
+<properties>
+    <jboss.releases.repo.url>file:///tmp/rdhc-repository</jboss.releases.repo.url>
+    <jboss.snapshots.repo.url>file:///tmp/rdhc-repository</jboss.snapshots.repo.url>
+  </properties>
 
 </project>
